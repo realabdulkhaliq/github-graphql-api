@@ -1,0 +1,30 @@
+query {
+  # query - Your goal is to read data from the server, not to modify it, query is the root operation. (If you don't specify an operation, query is also the default.)
+  
+  repository(name: "${repo}", owner: "${org}") { 
+
+  # Begin the query by finding a repository object. The schema validation indicates this object requires an owner and a name argument.
+  
+    vulnerabilityAlerts(first: 100) {
+      nodes { 
+        createdAt 
+        dismissedAt 
+        securityVulnerability { 
+          package { 
+            name 
+          } 
+          severity 
+          vulnerableVersionRange 
+          advisory { 
+            ghsaId 
+            publishedAt 
+            identifiers { 
+              type 
+              value 
+            } 
+          } 
+        } 
+      } 
+    } 
+  }
+}
