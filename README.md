@@ -21,3 +21,5 @@ https://github.com/github/codeql-action/releases
 [CodeQL Documentation GitHub](https://github.com/github/codeql/blob/main/docs/query-metadata-style-guide.md)
 
 [CodeQL Documentation Detailed](https://codeql.github.com/docs/ql-language-reference/about-the-ql-language/)
+
+[CodeQL Query Help](https://codeql.github.com/codeql-query-help/)
