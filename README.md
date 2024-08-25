@@ -13,3 +13,7 @@ After downloading the GraphiQL app, follow these instructions to configure it:
 6. To return to the editor, select outside of the Edit HTTP Headers modal.
 7. In the GraphQL Endpoint field, enter https://api.github.com/graphql.
 8. In the Method drop-down, select **Post**.
+
+
+## CodeQL Action Release
+https://github.com/github/codeql-action/releases
