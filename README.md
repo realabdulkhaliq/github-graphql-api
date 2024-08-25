@@ -18,4 +18,6 @@ After downloading the GraphiQL app, follow these instructions to configure it:
 ## CodeQL Action Release
 https://github.com/github/codeql-action/releases
 
-[CodeQL Documentation](https://github.com/github/codeql/blob/main/docs/query-metadata-style-guide.md)
+[CodeQL Documentation GitHub](https://github.com/github/codeql/blob/main/docs/query-metadata-style-guide.md)
+
+[CodeQL Documentation Detailed](https://codeql.github.com/docs/ql-language-reference/about-the-ql-language/)
